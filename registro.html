@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cocina de Claris</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">Acerca de</a></li>
+                <li><a href="/contact.html">Contacto</a></li>
+                <li><a href="/registro.html">Registrese</a></li>
+                <li><a href="/sucursales.html">Sucursales</a></li>
+            </ul>
+        </nav>
+        <h1 align="center">La cocina de Claris</h1>
+    </header>
+    <main>
+        <form action="show_data.html" target="_blank">
+            <h2>Formulario de registro</h2>
+            <br>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre..." required>
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido..." required>
+            <br>
+            <br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion..." required>
+            <br>
+            <br>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" value="C.A.B.A.">
+            <br>
+            <br>
+            <label for="codigoPostal">Codigo Postal:</label>
+            <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Ingrese su codigo postal..." required>
+            <br>
+            <br>
+            <label for="fechaNac">Fecha de nacimiento:</label>
+            <input type="date" name="fechaNac" id="fechaNac" required>
+            <br>
+            <br>
+            <span>Genero</span>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Hombre</label>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">Mujer</label>
+            <input type="radio" name="genero" id="otro" value="otro">
+            <label for="otro">Otro</label>
+            <br>
+            <br>
+            <span>Estudios:</span>
+            <input type="checkbox" name="estudios" id="primarios" value="1">
+            <label for="primarios">Primarios</label>
+            <input type="checkbox" name="estudios" id="secundarios" value="2">
+            <label for="secundarios">Secundarios</label>
+            <input type="checkbox" name="estudios" id="terciarios" value="3">
+            <label for="terciarios">Terciarios</label>
+            <input type="checkbox" name="estudios" id="universitarios" value="4">
+            <label for="universitarios">Universitarios</label>
+            <input type="checkbox" name="estudios" id="otro" value="5">
+            <label for="otro">Otro</label>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <br>
+            <input type="hidden" name="usuario" value="626">
+            <p>Si usted hace click en el boton "Enviar" la informacion sera enviada a la pagina "show_data.html"</p>
+        </form>
+       
+    </main>
+    <footer>
+        <p align="center"><small>Claris @2024</small></p>
+    </footer>
+    
+    <script src="./JS/archivo.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+header,footer {
+    background-color: orange;
+    padding: 15px;
+}
+
+img{
+    margin:15px
+}
+
+div {
+    padding: 15px;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    margin-left: 20px;
+}
+li{
+    margin:5px;
+}
